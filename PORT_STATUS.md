@@ -2,10 +2,7 @@
 
 - gnome-look page: https://www.gnome-look.org/p/999996 (store API 2026-10-08: version 0.10.1, 4 downloads -
   ComixCursors, -LH, -Opaque, -LH-Opaque - each holding 12 themes: 6 colours x Regular/Slim = 48 themes)
-- upstream: https://gitlab.com/limitland/comixcursors (original). Since 2026-10-08 the submodule is fetched from
-  https://github.com/hervad/comixcursors, an unmodified mirror (branches master + NOHAIR and all 12 tags pushed from a
-  fresh clone of the GitLab repo; tag 0.10.1 = commit 115b7a03 in both): GitHub 404s on GitLab submodule links.
-  Submodule `upstream/` pinned to
+- upstream: https://gitlab.com/limitland/comixcursors, submodule `upstream/` pinned to
   `115b7a03dc731865cca214f9881a9afa1249eb09` (tag 0.10.1, 2025-06-15 = latest commit = store version)
 - upstream license: GPL-3.0-or-later. `COPYING` (statement: "either version 3 ... or (at your option) any later
   version"; points to `LICENSE.GPL`), `LICENSE.GPL` (GPL v3 text), `AUTHORS` - all copied byte-for-byte under their

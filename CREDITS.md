@@ -6,10 +6,7 @@
 or (at your option) any later version") and [LICENSE.GPL](LICENSE.GPL) the full GPL v3 text it refers to; both, and
 [AUTHORS](AUTHORS), are byte-for-byte copies of upstream's files, under their original names.
 **Source:** `upstream/` is a git submodule pinned to commit `115b7a03dc731865cca214f9881a9afa1249eb09` (tag 0.10.1,
-2025-06-15, the latest; the gnome-look downloads are version 0.10.1). It is fetched from
-[hervad/comixcursors](https://github.com/hervad/comixcursors), an unmodified mirror of the GitLab repository (a git
-commit ID fingerprints the whole content, so the same ID means the same files); GitHub can only link submodules
-hosted on GitHub.
+2025-06-15, the latest; the gnome-look downloads are version 0.10.1).
 **Windows 11 HiDPI port:** Vadym Herman ([@hervad](https://github.com/hervad)), built with
 [w11-cursor-toolkit](https://github.com/hervad/w11-cursor-toolkit)
 

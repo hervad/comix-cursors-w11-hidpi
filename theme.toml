@@ -16,8 +16,7 @@ description = "Comic-style cursors, 6 colours x slim/regular"
 kind    = "git"                         # git | tarball
 url     = "https://gitlab.com/limitland/comixcursors"
 ref     = "115b7a03dc731865cca214f9881a9afa1249eb09"   # tag 0.10.1 = latest commit (2025-06-15) = store version
-path    = "upstream"                    # submodule from github.com/hervad/comixcursors: an unmodified mirror of the url
-                                        # above (same commit ID = same content); GitHub cannot link GitLab submodules
+path    = "upstream"                    # git submodule (or unpacked tarball) location
 authors = ["limitland / ComixCursors maintainers"]
 license = "GPL-3.0-or-later (COPYING: 'either version 3 of the License, or (at your option) any later version')"
 page    = "https://www.gnome-look.org/p/999996"

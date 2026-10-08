@@ -122,9 +122,7 @@ Remove-Item "C:\Windows\Cursors\Comix Blue W11 HiDPI" -Recurse
 ## Build from source
 
 The cursors are built with [w11-cursor-toolkit](https://github.com/hervad/w11-cursor-toolkit) from the original
-repository, pinned as a git submodule in `upstream/` at [commit 115b7a0](https://gitlab.com/limitland/comixcursors/-/tree/115b7a03dc731865cca214f9881a9afa1249eb09)
-(tag 0.10.1). The submodule is fetched from [an unmodified GitHub mirror](https://github.com/hervad/comixcursors/tree/115b7a03dc731865cca214f9881a9afa1249eb09)
-of the GitLab repository, because GitHub can only link submodules hosted on GitHub. Rendering needs the native cairo library; see the
+repository, pinned as a git submodule in `upstream/` ([that exact commit](https://gitlab.com/limitland/comixcursors/-/tree/115b7a03dc731865cca214f9881a9afa1249eb09)). Rendering needs the native cairo library; see the
 toolkit's README for how to get it on Windows or Linux.
 
 ```powershell
