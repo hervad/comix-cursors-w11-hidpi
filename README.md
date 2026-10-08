@@ -104,6 +104,9 @@ failure blocks the release.
 
 ## Tips
 
+- **Pointer size:** Comix is drawn for larger cursors - its author's "Regular" size is 40 px and 32 px is "Small" - so
+  at pointer size 1 (32 px) it looks soft, just like the original at that size. For the intended look, use pointer
+  size 2 or larger in **Settings › Accessibility › Mouse pointer and touch**.
 - **Shadow:** the original's soft shadow is part of every image. It keeps the white outline of the Black variants
   visible on light backgrounds. If **Settings › Accessibility › Mouse pointer and touch › Enable mouse pointer
   shadow** is on, Windows adds its own small shadow as well; turn it off for exactly the original look.
