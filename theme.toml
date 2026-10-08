@@ -7,7 +7,7 @@ schema = 1
 [theme]
 slug        = "comix"               # used in zip names: <slug>-<variant>-w11-hidpi-v<version>.zip
 name        = "Comix Cursors"
-version     = "0.1.0"                   # YOUR port version (tag v0.1.0 to release)
+version     = "0.1.1"                   # YOUR port version (tag v<version> to release)
 license     = "GPL-3.0-or-later"               # artwork license = upstream license (GPL-3.0-only, GPL-2.0-only, ...)
 porter      = "Vadym Herman (hervad)"
 description = "Comic-style cursors, 6 colours x slim/regular"
@@ -22,10 +22,12 @@ license = "GPL-3.0-or-later (COPYING: 'either version 3 of the License, or (at y
 page    = "https://www.gnome-look.org/p/999996"
 
 [render]
-renderer       = "cairosvg"
+renderer       = "resvg"     # keeps upstream's blurred shadow soft (cairosvg draws blur hard-edged, ADR-12)
 design_canvas  = 500       # every SVG: width="500" height="500" (viewBox 0 0 1000 1000); HOTSPOTS use these units
 hotspot_mode   = "point"
-strip_filtered = true      # upstream's faint blurred shadow (ADR-14: Windows draws its own)
+strip_filtered = false     # KEEP upstream's shadow - ADR-14 exception (maintainer, 2026-10-08): Comix Black/Opaque
+                           # Black have a white outline that only reads on light backgrounds against this shadow;
+                           # without it the edges looked rough at 32 px even with Windows' pointer shadow ON
 
 [sizes]                    # toolkit defaults; see PORT_STATUS for the .ani sizes
 

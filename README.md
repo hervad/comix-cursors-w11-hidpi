@@ -84,9 +84,9 @@ flips between images it has already decoded. Measured on Windows 11 25H2 against
 
 | | Comix | Windows aero |
 | --- | --- | --- |
-| Load a static cursor (32–96 px) | 0.2 ms | 0.1–0.2 ms |
-| Load an animated cursor (32–96 px) | 2–5 ms | 1–5 ms |
-| Load an animated cursor (256 px) | 33–47 ms | 19–21 ms |
+| Load a static cursor (32–96 px) | 0.2–0.3 ms | 0.1–0.2 ms |
+| Load an animated cursor (32–96 px) | 2–7 ms | 1–4 ms |
+| Load an animated cursor (256 px) | 32–49 ms | 20 ms |
 | GDI / USER handles left behind after 300 loads | 0 / 0 | 0 / 0 |
 
 Before every release, GitHub Actions loads every file with the real Windows cursor loader at several sizes; a
@@ -104,8 +104,9 @@ failure blocks the release.
 
 ## Tips
 
-- **Shadow:** the original theme drew a faint shadow into each image. Windows draws its own, so it isn't baked in
-  here. For the closest look, turn on **Settings › Accessibility › Mouse pointer and touch › Enable mouse pointer shadow**.
+- **Shadow:** the original's soft shadow is part of every image. It keeps the white outline of the Black variants
+  visible on light backgrounds. If **Settings › Accessibility › Mouse pointer and touch › Enable mouse pointer
+  shadow** is on, Windows adds its own small shadow as well; turn it off for exactly the original look.
 - **Left-handed:** Windows has no left-handed cursor setting; the LH schemes are the way to get mirrored pointers.
 
 ## Uninstall

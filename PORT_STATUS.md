@@ -31,12 +31,18 @@ Needs toolkit **v0.3.0** (single-file rotate, mirror_hotspots, LICENSE.GPL); not
 - **Animations:** one element rotated per frame about its own `rotate(0,cx,cy)` (ids path1441 / path1398 /
   flowRoot1441; LH files have mirrored centres, so the centre is read from the element). busy 36 x 10 deg,
   working 24 x 15 deg, help 2 x 180 deg; store build: 50 ms per frame, help 2000 + 500 ms -> 3 jiffies, [120, 30].
-- **Shadow:** faint blur filter. strip_filtered: 26 elements removed per variant, 0 artwork pixels changed (white
-  and lh-opaque-slim-black, all shipped sources). Halo scan (hidden shapes): clean.
+- **Shadow:** faint blur filter (26 filtered elements per variant). v0.1.0 stripped it (ADR-14). v0.1.1 KEEPS it
+  (maintainer, 2026-10-08, after seeing rough edges at size 1): the Black family has a LIGHT outline (white, 70 %)
+  on a DARK body; on light pages that outline only reads against upstream's shadow. 32 px comparison vs the store
+  build: store (rsvg + shadow) ~ resvg + shadow; without shadow the outline disappears on light backgrounds (both
+  renderers). Windows' pointer shadow was ON and did not compensate. renderer = resvg (cairosvg draws blur hard,
+  ADR-12). Outline/body survey of every shipped arrow (Polar, Material, Future, Comix, Capitaine, Layan, aero): only
+  the Comix Black family (and published Capitaine Dark, which has its own grey halo and looks clean) has a light
+  outline on a dark body. Halo scan (hidden shapes): clean.
 - **Move** = upstream's `all-scroll`, an open hand (Comix has no four-way arrow); hotspot (190,90) = fingertip.
-- **Sizes:** largest .ani 834 KB (< 1 MB budget); largest image offset 16,956 of 65,535; largest zip 2.9 MB.
-- **Load cost** (Windows 11 25H2, same run as aero): static 0.16-0.22 ms (aero 0.12-0.15), animated 2.4-4.7 ms at
-  32-96 px (aero 1.2-4.6), 33-47 ms at 256 px (aero 19-21); 0 GDI/USER handles leaked over 300 loads.
+- **Sizes:** v0.1.1 (shadow): largest .ani 966 KB (< 1 MB budget); largest image offset 22,253 of 65,535.
+- **Load cost** v0.1.1 (Windows 11 25H2, same run as aero): static 0.18-0.28 ms (aero 0.13-0.16), animated
+  2.5-6.5 ms at 32-96 px (aero 1.3-4.1), 32-49 ms at 256 px (aero 20); 0 GDI/USER handles leaked over 300 loads.
 - **Preview:** docs/preview.png = 6 colours (Regular, right-handed); docs/styles.png = Blue in Regular / Slim /
   Opaque / left-handed on one background (`preview --background light`).
 
@@ -49,5 +55,6 @@ Needs toolkit **v0.3.0** (single-file rotate, mirror_hotspots, LICENSE.GPL); not
 - [x] 48 variants generated from upstream configs; equivalence with upstream's sed proven
 - [x] `w11cursor build` + `validate` green locally (48); Test-LoadCursors 816/816; Get-AniFrameTiming 144/144
 - [x] README, CREDITS, previews
-- [ ] Toolkit v0.3.0 tagged; GitHub repo created
-- [ ] Installed and checked on screen; tag v0.1.0
+- [x] Toolkit v0.3.0 tagged; GitHub repo created (public); CI green (48 built, 816 loaded on Windows)
+- [x] Installed (Blue, Opaque Black, LH White) and checked on screen; v0.1.0 released (2026-10-08)
+- [ ] v0.1.1: upstream shadow kept (rough edges of the Black family at size 1)
