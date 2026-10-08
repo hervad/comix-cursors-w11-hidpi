@@ -57,4 +57,6 @@ Needs toolkit **v0.3.0** (single-file rotate, mirror_hotspots, LICENSE.GPL); not
 - [x] README, CREDITS, previews
 - [x] Toolkit v0.3.0 tagged; GitHub repo created (public); CI green (48 built, 816 loaded on Windows)
 - [x] Installed (Blue, Opaque Black, LH White) and checked on screen; v0.1.0 released (2026-10-08)
-- [ ] v0.1.1: upstream shadow kept (rough edges of the Black family at size 1)
+- [x] v0.1.1 released (2026-10-08): upstream shadow kept. Release verified: 48 zips match SHA256SUMS, scheme names
+      match folders 48/48, Windows loader 816/816; Opaque Black 32 px has the shadow (195 faint px vs 8 in v0.1.0) and
+      is pixel-identical to the local build. README: pointer size 1 looks soft by design (upstream Regular = 40 px)
