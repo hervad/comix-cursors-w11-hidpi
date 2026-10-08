@@ -3,3 +3,4 @@ dist/
 __pycache__/
 *.zip
 build.log
+tools/variants.toml

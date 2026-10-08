@@ -1,6 +1,7 @@
 """Generate theme.toml's [[variants]] blocks from upstream's ComixCursorsConfigs (run from the repo root).
 
-    python tools/variants_from_configs.py > tools/variants.toml   # then paste between the markers in theme.toml
+    python tools/variants_from_configs.py > tools/variants.toml   # then paste between the BEGIN/END GENERATED
+                                                                 # VARIANTS markers in theme.toml (git-ignored)
 
 Mirrors upstream bin/build-cursors exactly:
   * <Colour>.CONFIG, then <Include>.INCLUDE (Slim / Opaque / Opaque-Slim) override OUTLINE / CURSORTRANS;
