@@ -1,0 +1,311 @@
+[[variants]]
+id          = "black"
+scheme_name = "Comix Black W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#ffffff", "stroke-width:20" = "stroke-width:30", "#999999" = "#333333", "#555555" = "#000000", "#999933" = "#777700", "#666600" = "#444400", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "blue"
+scheme_name = "Comix Blue W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:30", "#999999" = "#ccffff", "#555555" = "#00ccff", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "green"
+scheme_name = "Comix Green W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:30", "#999999" = "#ccffcc", "#555555" = "#00ff00", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "orange"
+scheme_name = "Comix Orange W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:30", "#999999" = "#ffff00", "#555555" = "#ff9900", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "red"
+scheme_name = "Comix Red W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:30", "#999999" = "#ff9999", "#555555" = "#ff0000", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "white"
+scheme_name = "Comix White W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:30", "#999999" = "#ffffff", "#555555" = "#eeeeee", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "slim-black"
+scheme_name = "Comix Slim Black W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#ffffff", "stroke-width:20" = "stroke-width:20", "#999999" = "#333333", "#555555" = "#000000", "#999933" = "#777700", "#666600" = "#444400", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "slim-blue"
+scheme_name = "Comix Slim Blue W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:20", "#999999" = "#ccffff", "#555555" = "#00ccff", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "slim-green"
+scheme_name = "Comix Slim Green W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:20", "#999999" = "#ccffcc", "#555555" = "#00ff00", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "slim-orange"
+scheme_name = "Comix Slim Orange W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:20", "#999999" = "#ffff00", "#555555" = "#ff9900", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "slim-red"
+scheme_name = "Comix Slim Red W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:20", "#999999" = "#ff9999", "#555555" = "#ff0000", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "slim-white"
+scheme_name = "Comix Slim White W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:20", "#999999" = "#ffffff", "#555555" = "#eeeeee", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "opaque-black"
+scheme_name = "Comix Opaque Black W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#ffffff", "stroke-width:20" = "stroke-width:30", "#999999" = "#333333", "#555555" = "#000000", "#999933" = "#777700", "#666600" = "#444400", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }
+
+[[variants]]
+id          = "opaque-blue"
+scheme_name = "Comix Opaque Blue W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:30", "#999999" = "#ccffff", "#555555" = "#00ccff", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }
+
+[[variants]]
+id          = "opaque-green"
+scheme_name = "Comix Opaque Green W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:30", "#999999" = "#ccffcc", "#555555" = "#00ff00", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }
+
+[[variants]]
+id          = "opaque-orange"
+scheme_name = "Comix Opaque Orange W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:30", "#999999" = "#ffff00", "#555555" = "#ff9900", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }
+
+[[variants]]
+id          = "opaque-red"
+scheme_name = "Comix Opaque Red W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:30", "#999999" = "#ff9999", "#555555" = "#ff0000", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }
+
+[[variants]]
+id          = "opaque-white"
+scheme_name = "Comix Opaque White W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:30", "#999999" = "#ffffff", "#555555" = "#eeeeee", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }
+
+[[variants]]
+id          = "opaque-slim-black"
+scheme_name = "Comix Opaque Slim Black W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#ffffff", "stroke-width:20" = "stroke-width:20", "#999999" = "#333333", "#555555" = "#000000", "#999933" = "#777700", "#666600" = "#444400", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }
+
+[[variants]]
+id          = "opaque-slim-blue"
+scheme_name = "Comix Opaque Slim Blue W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:20", "#999999" = "#ccffff", "#555555" = "#00ccff", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }
+
+[[variants]]
+id          = "opaque-slim-green"
+scheme_name = "Comix Opaque Slim Green W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:20", "#999999" = "#ccffcc", "#555555" = "#00ff00", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }
+
+[[variants]]
+id          = "opaque-slim-orange"
+scheme_name = "Comix Opaque Slim Orange W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:20", "#999999" = "#ffff00", "#555555" = "#ff9900", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }
+
+[[variants]]
+id          = "opaque-slim-red"
+scheme_name = "Comix Opaque Slim Red W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:20", "#999999" = "#ff9999", "#555555" = "#ff0000", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }
+
+[[variants]]
+id          = "opaque-slim-white"
+scheme_name = "Comix Opaque Slim White W11 HiDPI"
+svg_dir     = "upstream/svg/RightHanded"
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:20", "#999999" = "#ffffff", "#555555" = "#eeeeee", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }
+
+[[variants]]
+id          = "lh-black"
+scheme_name = "Comix LH Black W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#ffffff", "stroke-width:20" = "stroke-width:30", "#999999" = "#333333", "#555555" = "#000000", "#999933" = "#777700", "#666600" = "#444400", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "lh-blue"
+scheme_name = "Comix LH Blue W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:30", "#999999" = "#ccffff", "#555555" = "#00ccff", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "lh-green"
+scheme_name = "Comix LH Green W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:30", "#999999" = "#ccffcc", "#555555" = "#00ff00", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "lh-orange"
+scheme_name = "Comix LH Orange W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:30", "#999999" = "#ffff00", "#555555" = "#ff9900", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "lh-red"
+scheme_name = "Comix LH Red W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:30", "#999999" = "#ff9999", "#555555" = "#ff0000", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "lh-white"
+scheme_name = "Comix LH White W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:30", "#999999" = "#ffffff", "#555555" = "#eeeeee", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "lh-slim-black"
+scheme_name = "Comix LH Slim Black W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#ffffff", "stroke-width:20" = "stroke-width:20", "#999999" = "#333333", "#555555" = "#000000", "#999933" = "#777700", "#666600" = "#444400", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "lh-slim-blue"
+scheme_name = "Comix LH Slim Blue W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:20", "#999999" = "#ccffff", "#555555" = "#00ccff", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "lh-slim-green"
+scheme_name = "Comix LH Slim Green W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:20", "#999999" = "#ccffcc", "#555555" = "#00ff00", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "lh-slim-orange"
+scheme_name = "Comix LH Slim Orange W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:20", "#999999" = "#ffff00", "#555555" = "#ff9900", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "lh-slim-red"
+scheme_name = "Comix LH Slim Red W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:20", "#999999" = "#ff9999", "#555555" = "#ff0000", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "lh-slim-white"
+scheme_name = "Comix LH Slim White W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:20", "#999999" = "#ffffff", "#555555" = "#eeeeee", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:0.7" }
+
+[[variants]]
+id          = "lh-opaque-black"
+scheme_name = "Comix LH Opaque Black W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#ffffff", "stroke-width:20" = "stroke-width:30", "#999999" = "#333333", "#555555" = "#000000", "#999933" = "#777700", "#666600" = "#444400", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }
+
+[[variants]]
+id          = "lh-opaque-blue"
+scheme_name = "Comix LH Opaque Blue W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:30", "#999999" = "#ccffff", "#555555" = "#00ccff", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }
+
+[[variants]]
+id          = "lh-opaque-green"
+scheme_name = "Comix LH Opaque Green W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:30", "#999999" = "#ccffcc", "#555555" = "#00ff00", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }
+
+[[variants]]
+id          = "lh-opaque-orange"
+scheme_name = "Comix LH Opaque Orange W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:30", "#999999" = "#ffff00", "#555555" = "#ff9900", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }
+
+[[variants]]
+id          = "lh-opaque-red"
+scheme_name = "Comix LH Opaque Red W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:30", "#999999" = "#ff9999", "#555555" = "#ff0000", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }
+
+[[variants]]
+id          = "lh-opaque-white"
+scheme_name = "Comix LH Opaque White W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:30", "#999999" = "#ffffff", "#555555" = "#eeeeee", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }
+
+[[variants]]
+id          = "lh-opaque-slim-black"
+scheme_name = "Comix LH Opaque Slim Black W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#ffffff", "stroke-width:20" = "stroke-width:20", "#999999" = "#333333", "#555555" = "#000000", "#999933" = "#777700", "#666600" = "#444400", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }
+
+[[variants]]
+id          = "lh-opaque-slim-blue"
+scheme_name = "Comix LH Opaque Slim Blue W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:20", "#999999" = "#ccffff", "#555555" = "#00ccff", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }
+
+[[variants]]
+id          = "lh-opaque-slim-green"
+scheme_name = "Comix LH Opaque Slim Green W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:20", "#999999" = "#ccffcc", "#555555" = "#00ff00", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }
+
+[[variants]]
+id          = "lh-opaque-slim-orange"
+scheme_name = "Comix LH Opaque Slim Orange W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:20", "#999999" = "#ffff00", "#555555" = "#ff9900", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }
+
+[[variants]]
+id          = "lh-opaque-slim-red"
+scheme_name = "Comix LH Opaque Slim Red W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:20", "#999999" = "#ff9999", "#555555" = "#ff0000", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }
+
+[[variants]]
+id          = "lh-opaque-slim-white"
+scheme_name = "Comix LH Opaque Slim White W11 HiDPI"
+svg_dir     = "upstream/svg/LeftHanded"
+mirror_hotspots = true
+recolor     = { "#000000" = "#111111", "stroke-width:20" = "stroke-width:20", "#999999" = "#ffffff", "#555555" = "#eeeeee", "#999933" = "#ffff33", "#666600" = "#cccc00", "#010101" = "#660000", "#111111" = "#000000", "opacity:0.05" = "opacity:0.1", "opacity:0.75" = "opacity:1" }

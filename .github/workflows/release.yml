@@ -1,0 +1,20 @@
+# Builds on every push/PR (artifact), publishes a GitHub Release on tags v*.
+name: release
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    # Needs toolkit v0.3.0+: single-file rotate animations, mirror_hotspots (left-handed set) and LICENSE.GPL as a
+    # notice file. Older toolkits stop with "unknown key(s)" instead of building something wrong.
+    # No pre-build step: upstream's SVG templates are used as they are, with upstream's sed substitutions expressed as
+    # each variant's `recolor` (tools/variants_from_configs.py) - upstream's scripts are not run.
+    uses: hervad/w11-cursor-toolkit/.github/workflows/build-theme.yml@v0.3.0
+    with:
+      toolkit-ref: v0.3.0
+    permissions:
+      contents: write
