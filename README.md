@@ -131,7 +131,7 @@ toolkit's README for how to get it on Windows or Linux.
 ```powershell
 git clone --recurse-submodules https://github.com/hervad/comix-cursors-w11-hidpi
 cd comix-cursors-w11-hidpi
-python -m pip install "w11cursor @ git+https://github.com/hervad/w11-cursor-toolkit@v0.3.0"
+python -m pip install "w11cursor @ git+https://github.com/hervad/w11-cursor-toolkit@v0.6.1"
 w11cursor build    theme.toml --out dist                    # all 48 variants (or: --variant blue)
 w11cursor validate theme.toml --dist dist
 ```

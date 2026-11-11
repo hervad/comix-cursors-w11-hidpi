@@ -427,3 +427,93 @@ same_as = "link"
 
 [cursors.person]
 same_as = "link"
+
+# ── Colour checks (toolkit v0.6.1 [[checks]], ADR-9 note). `validate` samples the BUILT layer at these design-unit
+#    points (solid areas in every variant, found on the built files) and fails the build if a measure is missed.
+# regular, right-handed: one check per geometry group (only/exempt patterns); min_alpha 150 covers the transparent variants (max alpha 190)
+[[checks]]
+name = "pointer body vs outline (regular, right-handed)"
+role = "arrow"
+a = [158.203, 197.266]
+b = [103.516, 119.141]
+size = 128
+min_contrast = 3
+exempt = ["lh-*", "*slim-*"]
+min_alpha = 150
+
+[[checks]]
+name = "Unavailable sign on its disc (regular, right-handed)"
+role = "unavailable"
+a = [197.266, 251.953]
+b = [283.203, 216.797]
+size = 128
+min_contrast = 3
+exempt = ["lh-*", "*slim-*"]
+min_alpha = 150
+
+# slim, right-handed
+[[checks]]
+name = "pointer body vs outline (slim, right-handed)"
+role = "arrow"
+a = [158.203, 197.266]
+b = [102.539, 116.211]
+size = 256
+min_contrast = 3
+only = ["*slim-*"]
+exempt = ["lh-*"]
+min_alpha = 150
+
+[[checks]]
+name = "Unavailable sign on its disc (slim, right-handed)"
+role = "unavailable"
+a = [197.266, 251.953]
+b = [283.203, 216.797]
+size = 128
+min_contrast = 3
+only = ["*slim-*"]
+exempt = ["lh-*"]
+min_alpha = 150
+
+# regular, left-handed
+[[checks]]
+name = "pointer body vs outline (regular, left-handed)"
+role = "arrow"
+a = [341.797, 197.266]
+b = [396.484, 119.141]
+size = 128
+min_contrast = 3
+only = ["lh-*"]
+exempt = ["*slim-*"]
+min_alpha = 150
+
+[[checks]]
+name = "Unavailable sign on its disc (regular, left-handed)"
+role = "unavailable"
+a = [302.734, 251.953]
+b = [220.703, 212.891]
+size = 128
+min_contrast = 3
+only = ["lh-*"]
+exempt = ["*slim-*"]
+min_alpha = 150
+
+# slim, left-handed
+[[checks]]
+name = "pointer body vs outline (slim, left-handed)"
+role = "arrow"
+a = [341.797, 197.266]
+b = [395.508, 118.164]
+size = 256
+min_contrast = 3
+only = ["lh-*slim-*"]
+min_alpha = 150
+
+[[checks]]
+name = "Unavailable sign on its disc (slim, left-handed)"
+role = "unavailable"
+a = [302.734, 251.953]
+b = [220.703, 212.891]
+size = 128
+min_contrast = 3
+only = ["lh-*slim-*"]
+min_alpha = 150
